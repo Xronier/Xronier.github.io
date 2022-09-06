@@ -12,3 +12,17 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+projects:
+  - title: Projects
+    children:
+      - title: "Tripease"
+        url: /docs/Tripease
+      - title: "Memories"
+        url: /docs/Memories/
+      - title: "Virtual Realities"
+        url: /docs/VirtualRealities/
+      - title: "Sakuranbot"
+        url: /docs/Sakuranbot/
+  - title: Customization
