@@ -14,7 +14,7 @@ main:
   #   url: /sitemap/
 
 
-projects:
+docs:
   - title: Projects
     children:
       - title: "Tripease"
@@ -25,4 +25,3 @@ projects:
         url: /docs/VirtualRealities/
       - title: "Sakuranbot"
         url: /docs/Sakuranbot/
-  - title: Customization
