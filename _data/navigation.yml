@@ -14,14 +14,14 @@ main:
   #   url: /sitemap/
 
 
-docs:
+projects:
   - title: Projects
     children:
       - title: "Tripease"
-        url: /_docs/Tripease
+        url: /projects/Tripease
       - title: "Memories"
-        url: /_docs/Memories/
+        url: /projects/Memories/
       - title: "Virtual Realities"
-        url: /_docs/VirtualRealities/
+        url: /projects/VirtualRealities/
       - title: "Sakuranbot"
-        url: /_docs/Sakuranbot/
+        url: /projects/Sakuranbot/
