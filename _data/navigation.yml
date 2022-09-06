@@ -18,10 +18,10 @@ docs:
   - title: Projects
     children:
       - title: "Tripease"
-        url: /docs/Tripease
+        url: /_docs/Tripease
       - title: "Memories"
-        url: /docs/Memories/
+        url: /_docs/Memories/
       - title: "Virtual Realities"
-        url: /docs/VirtualRealities/
+        url: /_docs/VirtualRealities/
       - title: "Sakuranbot"
-        url: /docs/Sakuranbot/
+        url: /_docs/Sakuranbot/
