@@ -37,10 +37,10 @@ gallery4:
     image_path: "/files/images/virtualrealities/othello demo.png"
     alt: "Othello"
   - url: "/files/images/virtualrealities/connectfour demo and show history.png"
-    image_path: "/files/images/virtualrealities/connectfour demo and show history"
+    image_path: "/files/images/virtualrealities/connectfour demo and show history.png"
     alt: "ConnectFour"
-  - url: "/files/images/virtualrealities/tictac demo and undo"
-    image_path: "/files/images/tictac demo and undo"
+  - url: "/files/images/virtualrealities/tictac demo and undo.png"
+    image_path: "/files/images/virtualrealities/tictac demo and undo.png"
     alt: "TicTacToe"
 ---
 
