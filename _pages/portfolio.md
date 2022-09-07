@@ -39,13 +39,12 @@ gallery4:
   - url: "/files/images/virtualrealities/connectfour demo and show history.png"
     image_path: "/files/images/virtualrealities/connectfour demo and show history"
     alt: "ConnectFour"
-  - url: "/files/images/virtualrealities/"tictac demo and undo"
-    image_path: "/files/images/"tictac demo and undo"
+  - url: "/files/images/virtualrealities/tictac demo and undo"
+    image_path: "/files/images/tictac demo and undo"
     alt: "TicTacToe"
 ---
 
  <font size="10">Tripease</font> 
-
 
 A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React, Redux, TailwindCSS, MySQL, and the Google Maps API. Figma was also used to create wireframes and mockups of the site. 
 
