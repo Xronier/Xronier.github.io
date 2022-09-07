@@ -36,15 +36,15 @@ gallery4:
   - url: "/files/images/virtualrealities/othello demo.png"
     image_path: "/files/images/virtualrealities/othello demo.png"
     alt: "Othello"
-  - url: "/files/images/virtualrealities/connectfour and show history.png"
-    image_path: "/files/images/virtualrealities/connectfour and show history"
+  - url: "/files/images/virtualrealities/connectfour demo and show history.png"
+    image_path: "/files/images/virtualrealities/connectfour demo and show history"
     alt: "ConnectFour"
-  - url: "/files/images/virtualrealities/tictac demo and undo"
-    image_path: "/files/images/tictac demo and undo"
+  - url: "/files/images/virtualrealities/"tictac demo and undo"
+    image_path: "/files/images/"tictac demo and undo"
     alt: "TicTacToe"
 ---
 
- <font size="1"> Tripease</font> 
+ <font size="10">Tripease</font> 
 
 
 A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React, Redux, TailwindCSS, MySQL, and the Google Maps API. Figma was also used to create wireframes and mockups of the site. 
@@ -56,7 +56,8 @@ Login: elijahespiritu93@yahoo.com Pass: Password2332
 
 {% include gallery id="gallery" caption="Images of the landing page, itinerary, and budget breakdown" %}
 
-Virtual Realities
+<font size="5">Virtual Realities</font> 
+
 
 A program that lets users play Othello, TicTacToe, or Connect Four against each other. Implemented purely with C++. This project implements the MVC design architecture and object oriented programming.
 
@@ -68,11 +69,11 @@ The code can be found [here](https://github.com/Xronier/CECS-282/tree/master/Vir
 
 {% include gallery id="gallery4" caption="Images of Othello, ConnectFour, TicTacToe, and various utilities of the app" %}
 
-Sakuranbot
+<font size="15">Sakuranbot</font> 
 
 A bot for the popular social platform, Discord. The bot is able to join a server on Discord and can give out Japanese language quizzes or just post popular posts from other social media platforms such as Reddit. Uses an SQLite database to store the settings of the bot as well as the data of Japanese kanji and compound words. Language quiz settings can be tweaked to include only certain kanji/compounds from varying JLPT (Japanese Language Proficiency Test) levels. Also lets users learn more about the kanji/compounds they encounter throughout their quizzes by providing detailed info and even links to the popular Japanese dictionary website, [Jisho](https://jisho.org/)
 
-The code can be found [here](https://github.com/Xronier/Sakuranbot))
+The code can be found [here](https://github.com/Xronier/Sakuranbot)
 
 {% include gallery id="gallery2" caption="Images of Discord, the quiz function, settings function, and post function" %}
 
