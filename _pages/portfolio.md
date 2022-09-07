@@ -13,11 +13,11 @@ gallery:
   - url: /files/images/sakuranbot/sakuranbot.png
     image_path: /files/images/sakuranbot/discord.png
     alt: "placeholder image 2"
-    id: "1"
+    id: "2"
   - url: /files/images/sakuranbot/sakuranbot.png
     image_path: /files/images/sakuranbot/discord.png
     alt: "placeholder image 3"
-    id: "2"
+    id: "3"
 ---
 
 Tripease
@@ -31,4 +31,4 @@ Sakuranbot
 
 A bot for the popular x application, Discord.
 
-{% include gallery id="1" caption="This is a sample gallery to go along with this case study." %}
+{% include gallery id="2" caption="This is a sample gallery to go along with this case study." %}
