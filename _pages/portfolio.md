@@ -51,7 +51,9 @@ gallery4:
 &emsp;&emsp;Users can create an account to create a bare bones itinerary for however many days and use a biased search bar to select a location they want to search around (e.g. you want to look up X thing around Cannes, France). Users can then search for places of interest (pois) which will create an instance of a specialized Google Map where users can click markers to see detailed information about said pois and add them to their itinerary. It's also possible to set budgets for each location a user adds, which will tally up the total amount that will be spent throughout the trip automatically, which makes this app effective for splitting the costs with friends or family.
 
 You can visit the website [here](https://github.com/johnmarion1126/Tripease), but unfortuntely the Google Maps capabilities are offline currently as things cost money.  
-Login: elijahespiritu93@yahoo.com Pass: Password2332
+
+Login: elijahespiritu93@yahoo.com
+Pass: Password2332
 
 {% include gallery id="gallery" caption="Images of the landing page, itinerary, and budget breakdown" %}
 
