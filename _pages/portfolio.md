@@ -9,6 +9,12 @@ gallery:
   - url: /files/images/tripease/landing.png
     image_path: /files/images/tripease/landing.png
     alt: "Landing"
+  - url: /files/images/tripease/budget.png
+    image_path: /files/images/tripease/budget.png
+    alt: "Itinerary"
+  - url: /files/images/tripease/itin.png
+    image_path: /files/images/tripease/itin.png
+    alt: "Budget"
 gallery2:
   - url: /files/images/sakuranbot/sakuranbot.png
     image_path: /files/images/sakuranbot/discord.png
@@ -25,13 +31,18 @@ gallery4:
 
 Tripease
 
-A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React, Redux, TailwindCSS, MySQL, and the Google Maps API.
+A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React, Redux, TailwindCSS, MySQL, and the Google Maps API. Figma was also used to create wireframes and mockups of the site. 
 
-{% include gallery id="gallery" caption="This is a sample gallery to go along with this case study." %}
+ Users can create an account to create a bare bones itinerary for however many days and use a biased search bar to select a location they want to search around (e.g. you want to look up X thing around Cannes, France). Users can then search for places of interest (pois) which will create an instance of a specialized Google Map where users can click markers to see detailed information about said pois and add them to their itinerary. It's also possible to set budgets for each location a user adds, which will tally up the total amount that will be spent throughout the trip automatically, which makes this app effective for splitting the costs with friends or family.
+
+You can visit the website [https://github.com/johnmarion1126/Tripease](here), but unfortuntely the Google Maps capabilities are offline currently as things cost money.
+Login: elijahespiritu93@yahoo.com Pass: Password2332
+
+{% include gallery id="gallery" caption="Images of the landing page, itinerary, and budget breakdown" %}
 
 Sakuranbot
 
-A bot for the popular x application, Discord.
+A bot for the popular social platform, Discord. The bot is able to join a server on Discord and can give out Japanese language quizzes or just post popular posts from other social media platforms such as Reddit. Uses an SQLite database to store the settings of the bot as well as the data of Japanese kanji and compound words. Language quiz settings can be tweaked to include only certain kanji/compounds from varying JLPT (Japanese Language Proficiency Test) levels.
 
 {% include gallery id="gallery2" caption="This is a sample gallery to go along with this case study.." %}
 
