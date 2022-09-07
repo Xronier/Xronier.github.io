@@ -46,7 +46,7 @@ gallery4:
 
  <font size="15">Tripease</font> 
 
-A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React, Redux, TailwindCSS, MySQL, and the Google Maps API. Figma was also used to create wireframes and mockups of the site. 
+&emsp;A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React Redux, TailwindCSS, MySQL, and the Google Maps API. Figma was also used to create wireframes and mockups of the site. 
 
  Users can create an account to create a bare bones itinerary for however many days and use a biased search bar to select a location they want to search around (e.g. you want to look up X thing around Cannes, France). Users can then search for places of interest (pois) which will create an instance of a specialized Google Map where users can click markers to see detailed information about said pois and add them to their itinerary. It's also possible to set budgets for each location a user adds, which will tally up the total amount that will be spent throughout the trip automatically, which makes this app effective for splitting the costs with friends or family.
 
