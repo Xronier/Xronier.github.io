@@ -9,25 +9,25 @@ gallery:
   - url: /files/images/tripease/landing.png
     image_path: /files/images/tripease/landing.png
     alt: "Landing"
-  - url: /files/images/tripease/budget.png
-    image_path: /files/images/tripease/budget.png
-    alt: "Itinerary"
   - url: /files/images/tripease/itin.png
     image_path: /files/images/tripease/itin.png
+    alt: "Itinerary"
+  - url: /files/images/tripease/budget.png
+    image_path: /files/images/tripease/budget.png
     alt: "Budget"
 gallery2:
   - url: /files/images/sakuranbot/discord.png
     image_path: /files/images/sakuranbot/discord.png
     alt: "Discord"
-  - url: /files/images/sakuranbot/quizDemo.png
-    image_path: /files/images/sakuranbot/quizDemo.png
+  - url: /files/images/sakuranbot/QuizDemo.png
+    image_path: /files/images/sakuranbot/QuizDemo.png
     alt: "Quiz"
   - url: /files/images/sakuranbot/JLPT.png
     image_path: /files/images/sakuranbot/JLPT.png
     alt: "Settings"
-  - url: /files/images/sakuranbot/postDemo.png
-    image_path: /files/images/sakuranbot/postDemo.png
-    alt: "postDemo"
+  - url: /files/images/sakuranbot/PostDemo.png
+    image_path: /files/images/sakuranbot/PostDemo.png
+    alt: "Posts"
 gallery3:
   - url: /files/images/memories/landing.png
     image_path: /files/images/memories/landing.png
@@ -36,33 +36,50 @@ gallery4:
   - url: "/files/images/virtualrealities/othello demo.png"
     image_path: "/files/images/virtualrealities/othello demo.png"
     alt: "Othello"
+  - url: "/files/images/virtualrealities/connectfour and show history.png"
+    image_path: "/files/images/virtualrealities/connectfour and show history"
+    alt: "ConnectFour"
+  - url: "/files/images/virtualrealities/tictac demo and undo"
+    image_path: "/files/images/tictac demo and undo"
+    alt: "TicTacToe"
 ---
 
-Tripease
+ <font size="1"> Tripease</font> 
+
 
 A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React, Redux, TailwindCSS, MySQL, and the Google Maps API. Figma was also used to create wireframes and mockups of the site. 
 
  Users can create an account to create a bare bones itinerary for however many days and use a biased search bar to select a location they want to search around (e.g. you want to look up X thing around Cannes, France). Users can then search for places of interest (pois) which will create an instance of a specialized Google Map where users can click markers to see detailed information about said pois and add them to their itinerary. It's also possible to set budgets for each location a user adds, which will tally up the total amount that will be spent throughout the trip automatically, which makes this app effective for splitting the costs with friends or family.
 
-You can visit the website [https://github.com/johnmarion1126/Tripease](here), but unfortuntely the Google Maps capabilities are offline currently as things cost money.
+You can visit the website [here](https://github.com/johnmarion1126/Tripease), but unfortuntely the Google Maps capabilities are offline currently as things cost money.  
 Login: elijahespiritu93@yahoo.com Pass: Password2332
 
 {% include gallery id="gallery" caption="Images of the landing page, itinerary, and budget breakdown" %}
+
+Virtual Realities
+
+A program that lets users play Othello, TicTacToe, or Connect Four against each other. Implemented purely with C++. This project implements the MVC design architecture and object oriented programming.
+
+Integration of a new game is possible because polymorphism can easily take the shape of these games as they all share similar characterstics. Namely, the game should involve placing a piece (rather than start with pieces like chess), having an observable change in one of the cardinal directions after placing a piece (e.g. checking if the user just connected four), and having a game board.
+
+When implementing a game, you are tasked with implementing several algorithms, which can range from easy to exceedingly difficult. For example, making a move in TicTacToe requires you to simply check if the space is empty and if there's a winner after placing the piece. In Othello though, it requires you to scour each cardinal direction in search for a friendly piece so it can then flip each enemy piece leading to that friendly piece while making sure to not double count pieces that were already observed in another cardinal direction and yada yada. Other algorithms that can be created are undoing n moves, showing the game's current history, and showing the current value of the board.
+
+The code can be found [here](https://github.com/Xronier/CECS-282/tree/master/VirtualRealities/VirtualRealities)
+
+{% include gallery id="gallery4" caption="Images of Othello, ConnectFour, TicTacToe, and various utilities of the app" %}
 
 Sakuranbot
 
 A bot for the popular social platform, Discord. The bot is able to join a server on Discord and can give out Japanese language quizzes or just post popular posts from other social media platforms such as Reddit. Uses an SQLite database to store the settings of the bot as well as the data of Japanese kanji and compound words. Language quiz settings can be tweaked to include only certain kanji/compounds from varying JLPT (Japanese Language Proficiency Test) levels. Also lets users learn more about the kanji/compounds they encounter throughout their quizzes by providing detailed info and even links to the popular Japanese dictionary website, [Jisho](https://jisho.org/)
 
-{% include gallery id="gallery2" caption="This is a sample gallery to go along with this case study.." %}
+The code can be found [here](https://github.com/Xronier/Sakuranbot))
+
+{% include gallery id="gallery2" caption="Images of Discord, the quiz function, settings function, and post function" %}
 
 Memories
 
-A fullstack MERN social media application
+A fullstack MERN social media application that allows users to perform CRUD operations on a MongoDB database. Developed a REST API using Node.js, Express.js, and MongoDB. This REST API allows the client side of the application to communicate with the server side of the application (which are decoupled). The client side of the application is done with React to create a responsive UI.
 
-{% include gallery id="gallery3" caption="This is a sample gallery to go along with this case study..." %}
+The code can be found [here](https://github.com/Xronier/memories_project)
 
-Virtual Realities
-
-A program that lets users play Othello, TicTacToe, or Connect Four against each other.
-
-{% include gallery id="gallery4" caption="This is a sample gallery to go along with this case study...." %}
+{% include gallery id="gallery3" caption="Image of the landing page" %}
