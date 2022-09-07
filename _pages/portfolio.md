@@ -16,9 +16,18 @@ gallery:
     image_path: /files/images/tripease/itin.png
     alt: "Budget"
 gallery2:
-  - url: /files/images/sakuranbot/sakuranbot.png
+  - url: /files/images/sakuranbot/discord.png
     image_path: /files/images/sakuranbot/discord.png
     alt: "Discord"
+  - url: /files/images/sakuranbot/quizDemo.png
+    image_path: /files/images/sakuranbot/quizDemo.png
+    alt: "Quiz"
+  - url: /files/images/sakuranbot/JLPT.png
+    image_path: /files/images/sakuranbot/JLPT.png
+    alt: "Settings"
+  - url: /files/images/sakuranbot/postDemo.png
+    image_path: /files/images/sakuranbot/postDemo.png
+    alt: "postDemo"
 gallery3:
   - url: /files/images/memories/landing.png
     image_path: /files/images/memories/landing.png
@@ -42,7 +51,7 @@ Login: elijahespiritu93@yahoo.com Pass: Password2332
 
 Sakuranbot
 
-A bot for the popular social platform, Discord. The bot is able to join a server on Discord and can give out Japanese language quizzes or just post popular posts from other social media platforms such as Reddit. Uses an SQLite database to store the settings of the bot as well as the data of Japanese kanji and compound words. Language quiz settings can be tweaked to include only certain kanji/compounds from varying JLPT (Japanese Language Proficiency Test) levels.
+A bot for the popular social platform, Discord. The bot is able to join a server on Discord and can give out Japanese language quizzes or just post popular posts from other social media platforms such as Reddit. Uses an SQLite database to store the settings of the bot as well as the data of Japanese kanji and compound words. Language quiz settings can be tweaked to include only certain kanji/compounds from varying JLPT (Japanese Language Proficiency Test) levels. Also lets users learn more about the kanji/compounds they encounter throughout their quizzes by providing detailed info and even links to the popular Japanese dictionary website, [Jisho](https://jisho.org/)
 
 {% include gallery id="gallery2" caption="This is a sample gallery to go along with this case study.." %}
 
