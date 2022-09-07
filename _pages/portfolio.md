@@ -44,7 +44,7 @@ gallery4:
     alt: "TicTacToe"
 ---
 
- <font size="10">Tripease</font> 
+ <font size="15">Tripease</font> 
 
 A fullstack web application that lets users to perform CRUD operations to develop itinerary for their trips. Built with the Django REST Framework, JavaScript, React, Redux, TailwindCSS, MySQL, and the Google Maps API. Figma was also used to create wireframes and mockups of the site. 
 
@@ -55,7 +55,7 @@ Login: elijahespiritu93@yahoo.com Pass: Password2332
 
 {% include gallery id="gallery" caption="Images of the landing page, itinerary, and budget breakdown" %}
 
-<font size="5">Virtual Realities</font> 
+<font size="15">Virtual Realities</font> 
 
 
 A program that lets users play Othello, TicTacToe, or Connect Four against each other. Implemented purely with C++. This project implements the MVC design architecture and object oriented programming.
@@ -76,7 +76,7 @@ The code can be found [here](https://github.com/Xronier/Sakuranbot)
 
 {% include gallery id="gallery2" caption="Images of Discord, the quiz function, settings function, and post function" %}
 
-Memories
+<font size="15">Memories</font> 
 
 A fullstack MERN social media application that allows users to perform CRUD operations on a MongoDB database. Developed a REST API using Node.js, Express.js, and MongoDB. This REST API allows the client side of the application to communicate with the server side of the application (which are decoupled). The client side of the application is done with React to create a responsive UI.
 
