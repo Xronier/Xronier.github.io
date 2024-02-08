@@ -52,9 +52,6 @@ gallery4:
 
 You can visit the website [here](https://github.com/johnmarion1126/Tripease), but unfortuntely the Google Maps capabilities are offline currently as things cost money.  
 
-Login: elijahespiritu93@yahoo.com  
-Pass: Password2332
-
 {% include gallery id="gallery" caption="Images of the landing page, itinerary, and budget breakdown" %}
 
 <font size="15">Virtual Realities</font> 
